@@ -1,0 +1,12 @@
+Enter file contents here
+void setup(){
+  size(500,500);
+}
+
+void draw(){
+background(255);
+ellipse(200,200,80,80);
+fill(0);
+text(mouseX,10,20);
+text(mouseY,10,40);
+}
